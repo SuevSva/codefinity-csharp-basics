@@ -1,0 +1,19 @@
+using System;
+
+namespace ConsoleApp {
+    public class Program {
+        public static void Main(string[] args) {
+            int orderNumber = ___;
+            int quantity = ___;
+            long pricePerItem = ___;
+            long totalPrice = ___ * ___;
+
+            Console.WriteLine("Order number: " + ___);
+            Console.WriteLine("Quantity: " + ___);
+            Console.WriteLine("Price per item: " + ___);
+            Console.WriteLine("Total price: " + ___);
+        }
+
+        public static void TestMain() { Main(new string[0]); }
+    }
+}
