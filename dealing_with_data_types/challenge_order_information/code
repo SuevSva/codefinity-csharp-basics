@@ -3,15 +3,15 @@ using System;
 namespace ConsoleApp {
     public class Program {
         public static void Main(string[] args) {
-            int orderNumber = ___;
-            int quantity = ___;
-            long pricePerItem = ___;
-            long totalPrice = ___ * ___;
+            int orderNumber = 1001;
+            int quantity = 3;
+            long pricePerItem = 5000;
+            long totalPrice = quantity * pricePerItem;
 
-            Console.WriteLine("Order number: " + ___);
-            Console.WriteLine("Quantity: " + ___);
-            Console.WriteLine("Price per item: " + ___);
-            Console.WriteLine("Total price: " + ___);
+            Console.WriteLine("Order number: " + orderNumber);
+            Console.WriteLine("Quantity: " + quantity);
+            Console.WriteLine("Price per item: " + pricePerItem);
+            Console.WriteLine("Total price: " + totalPrice);
         }
 
         public static void TestMain() { Main(new string[0]); }
