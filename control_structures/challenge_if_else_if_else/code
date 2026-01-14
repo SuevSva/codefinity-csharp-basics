@@ -3,12 +3,12 @@ using System;
 namespace ConsoleApp {
     public class Program {
         public static string GetCategory(int age) {
-            if (___ < ___) {
-                return "___";
-            } else if (___ < ___) {
-                return "___";
+            if (age < 18) {
+                return "child";
+            } else if (age < 65) {
+                return "adult";
             } else {
-                return "___";
+                return "senior";
             }
         }
 
